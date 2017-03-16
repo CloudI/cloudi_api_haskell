@@ -1,6 +1,8 @@
 `cloudi_api_haskell`
 ====================
 
+**WIP**
+
 Haskell [CloudI API](http://cloudi.org/api.html#1_Intro)
 
 Build
