@@ -94,7 +94,7 @@ type Callback s =
     ByteString -> ByteString ->
     Int -> Int -> ByteString -> Source ->
     s -> T s ->
-    Response s
+    IO (Response s)
 
 data Response s =
       Response (ByteString, s)
