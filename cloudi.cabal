@@ -15,7 +15,7 @@ cabal-version:       >= 1.10
 extra-source-files:  README.markdown
 
 library
-  hs-source-dirs:      src
+  hs-source-dirs:    src
   exposed-modules:     Foreign.CloudI
                      , Foreign.Erlang
                      , Foreign.Erlang.Pid
@@ -23,7 +23,7 @@ library
                      , Foreign.Erlang.Reference
                      , Foreign.Erlang.Function
   other-modules:       Foreign.CloudI.Instance
-  ghc-options:         -Wall -Werror -funbox-strict-fields
+  ghc-options:       -Wall -Werror -funbox-strict-fields
   build-depends:       base >= 4.5.0
                      , binary >= 0.8.4.0
                      , bytestring >= 0.10.4
@@ -33,7 +33,7 @@ library
                      , time
                      , unix
                      , zlib
-  default-language:    Haskell2010
+  default-language:  Haskell2010
 
 source-repository head
   type:     git
