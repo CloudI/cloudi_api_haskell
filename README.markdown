@@ -1,6 +1,8 @@
 `cloudi_api_haskell`
 ====================
 
+[![Hackage version](https://img.shields.io/hackage/v/cloudi.svg?label=Hackage)](https://hackage.haskell.org/package/cloudi)
+
 Haskell [CloudI API](http://cloudi.org/api.html#1_Intro)
 
 Build
