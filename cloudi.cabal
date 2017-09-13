@@ -1,5 +1,5 @@
 name:                cloudi
-version:             1.7.1
+version:             1.7.2
 synopsis:            Haskell CloudI API
 description:         Haskell CloudI API
 homepage:            https://github.com/CloudI/cloudi_api_haskell
