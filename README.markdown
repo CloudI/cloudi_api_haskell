@@ -3,7 +3,7 @@
 
 [![Hackage version](https://img.shields.io/hackage/v/cloudi.svg?label=Hackage)](https://hackage.haskell.org/package/cloudi)
 
-Haskell [CloudI API](http://cloudi.org/api.html#1_Intro)
+Haskell [CloudI API](https://cloudi.org/api.html#1_Intro)
 
 Build
 -----
