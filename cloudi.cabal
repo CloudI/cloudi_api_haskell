@@ -1,7 +1,7 @@
 name:                cloudi
-version:             1.7.3
+version:             1.7.4
 synopsis:            Haskell CloudI API
-description:         Haskell CloudI API
+description:         Haskell CloudI API (see https://cloudi.org for more details)
 homepage:            https://github.com/CloudI/cloudi_api_haskell
 license:             MIT
 license-file:        LICENSE
