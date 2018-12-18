@@ -1,5 +1,5 @@
 name:                cloudi
-version:             1.7.4
+version:             1.7.5
 synopsis:            Haskell CloudI API
 description:         Haskell CloudI API (see https://cloudi.org for more details)
 homepage:            https://github.com/CloudI/cloudi_api_haskell
@@ -11,7 +11,7 @@ copyright:           2017-2018 Michael Truog
 category:            Foreign
 stability:           provisional
 build-type:          Simple
-cabal-version:       >= 1.22
+cabal-version:       1.22
 tested-with:         GHC == 7.10.3, GHC == 8.0.2, GHC == 8.2.2, GHC == 8.4.3
 extra-source-files:  README.markdown changelog.md
 
