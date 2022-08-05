@@ -8,6 +8,21 @@ Haskell [CloudI API](https://cloudi.org/api.html#1_Intro)
 Build
 -----
 
+With cabal-install >= 3.4
+
+    cabal v2-update
+    mkdir sandbox
+    cabal --store-dir=./sandbox v2-configure
+    cabal v2-build
+
+With cabal-install >= 2.4 and cabal-install < 3.4
+
+    cabal v1-sandbox init
+    cabal v1-update
+    cabal v1-install --only-dependencies
+    cabal v1-configure
+    cabal v1-build
+
 With cabal-install < 2.4
 
     cabal sandbox init
@@ -16,13 +31,6 @@ With cabal-install < 2.4
     cabal configure
     cabal build
 
-With cabal-install >= 2.4
-
-    cabal v1-sandbox init
-    cabal v1-update
-    cabal v1-install --only-dependencies
-    cabal v1-configure
-    cabal v1-build
 
 Author
 ------
