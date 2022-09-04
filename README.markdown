@@ -35,7 +35,7 @@ Without cabal-install
 
     mkdir -p dist/setup-bin
     ghc --make -outputdir dist/setup-bin -o dist/setup-bin/Setup ./Setup.hs
-    dist/setup-bin/Setup configure --builddir=./dist --enable-deterministic --disable-shared --enable-stati
+    dist/setup-bin/Setup configure --builddir=./dist --enable-deterministic --disable-shared --enable-static
     dist/setup-bin/Setup build
 
 Author
